@@ -1,0 +1,374 @@
+/* common styles */
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+a img {
+  border: none;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+}
+input {
+  outline: none;
+}
+.wrap {
+  width: 684px;
+  margin: 0 auto;
+  position: relative;
+}
+html {
+  min-height: 100%;
+}
+body {
+  min-height: 100%;
+  min-width: 684px;
+  position: relative;
+  padding-bottom: 65px;
+}
+.header {
+  background: #fcfdf9;
+  padding: 27px 0 7px;
+  border-bottom: 1px solid #4f342f;
+}
+.header .wrap {
+  padding-top: 150px;
+}
+.logo {
+  margin-left: -123px;
+  left: 50%;
+  top: 0;
+  position: absolute;
+  z-index: 10;
+  padding: 0 21px;
+  background: #fcfdf9;
+}
+.nav {
+  background: #59653f;
+  position: relative;
+  z-index: 5;
+}
+.nav ul {
+  width: 200px;
+  display: table;
+}
+.nav li {
+  line-height: 32px;
+  display: table-cell;
+}
+.nav li a {
+  color: #ffffff;
+  font-family: "Tahoma", "Arial", sans-serif;
+  font-size: 13px;
+  text-decoration: underline;
+}
+.nav-wrap {
+  width: 684px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.left-nav {
+  float: left;
+}
+.right-nav {
+  float: right;
+}
+.right-nav li {
+  text-align: right;
+}
+.phone {
+  position: absolute;
+  top: 114px;
+  right: 0;
+  color: #4f342f;
+  font-family: "Tahoma", "Arial", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.phone span {
+  font-size: 18px;
+}
+.about-work .wrap {
+  padding: 35px 60px;
+}
+.about-work ul {
+  width: 100%;
+}
+.about-work ul li {
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+}
+.about-work ul li a {
+  color: #5b6740;
+  font-family: "Tahoma", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+  padding-top: 105px;
+}
+.about-work ul li a:hover {
+  color: #59653f;
+}
+.about-work ul li a.ph1 {
+  background: url("../img/ph1.png") 43% 0 no-repeat;
+}
+.about-work ul li a.ph1:hover {
+  background: url("../img/ph1-hover.png") 43% 0 no-repeat;
+}
+.about-work ul li a.ph2 {
+  background: url("../img/ph2.png") top center no-repeat;
+}
+.about-work ul li a.ph2:hover {
+  background: url("../img/ph2-hover.png") top center no-repeat;
+}
+.about-work ul li a.ph3 {
+  background: url("../img/ph3.png") 40% 0 no-repeat;
+}
+.about-work ul li a.ph3:hover {
+  background: url("../img/ph3-hover.png") 40% 0 no-repeat;
+}
+.about-work ul li + li {
+  margin-left: 50px;
+}
+.projects {
+  overflow: hidden;
+  background-color: #edf4e0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#edf4e0), to(#eff4e4));
+  background: -webkit-linear-gradient(top, #edf4e0, #eff4e4);
+  background: -moz-linear-gradient(top, #edf4e0, #eff4e4);
+  background: -ms-linear-gradient(top, #edf4e0, #eff4e4);
+  background: -o-linear-gradient(top, #edf4e0, #eff4e4);
+}
+.projects h2 {
+  padding: 25px 0 20px;
+  color: #4f342f;
+  font-family: "Tahoma", "Arial", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.projects .wrap div {
+  float: left;
+  margin: 4px;
+}
+.projects .wrap div a {
+  display: block;
+}
+.projects .wrap div a img {
+  display: block;
+}
+.pr-wrapper {
+  background: url("../img/gradient.png");
+  overflow: hidden;
+  padding-bottom: 45px;
+}
+.article {
+  background: url("../img/article-bg.png") no-repeat left 113px;
+  width: 470px;
+  margin-right: 226px;
+  padding: 60px 0 30px;
+}
+.article h3 {
+  color: #696c40;
+  font-family: "Tahoma", "Arial", sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.article p {
+  color: #4f4e4e;
+  font-family: "Tahoma", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+}
+.sidebar {
+  width: 165px;
+  float: right;
+  padding: 60px 0 30px;
+  overflow: hidden;
+}
+.content {
+  background-color: #fefeff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fefeff), to(#f0f0f1));
+  background: -webkit-linear-gradient(top, #fefeff, #f0f0f1);
+  background: -moz-linear-gradient(top, #fefeff, #f0f0f1);
+  background: -ms-linear-gradient(top, #fefeff, #f0f0f1);
+  background: -o-linear-gradient(top, #fefeff, #f0f0f1);
+  overflow: hidden;
+}
+.menu {
+  background: url("../img/menu-top.png") no-repeat left bottom;
+  padding-bottom: 16px;
+  margin-bottom: 23px;
+}
+.menu li {
+  padding-bottom: 16px;
+  padding-left: 11px;
+  background: url("../img/item.png") no-repeat left 11px;
+}
+.menu li a {
+  color: #59653f;
+  font-family: "Tahoma", "Arial", sans-serif;
+  font-size: 13px;
+}
+.menu li a:hover {
+  text-decoration: underline;
+}
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background: url("../img/footer-bg.png") repeat-x;
+  height: 64px;
+}
+.footer .wrap {
+  background: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+.f-logo {
+  float: left;
+  padding: 6px 0 8px 43px;
+}
+.footer-nav {
+  padding-right: 34px;
+}
+.footer-nav li {
+  float: right;
+  margin: 0 24px;
+  line-height: 64px;
+}
+.footer-nav li a {
+  color: #ffffff;
+  font-family: "Tahoma", "Arial", sans-serif;
+  font-size: 12px;
+  text-decoration: underline;
+}
+/*--  lightbox  --*/
+/**
+ * jQuery lightBox plugin
+ * This jQuery plugin was inspired and based on Lightbox 2 by Lokesh Dhakar (http://www.huddletogether.com/projects/lightbox2/)
+ * and adapted to me for use like a plugin from jQuery.
+ * @name jquery-lightbox-0.5.css
+ * @author Leandro Vieira Pinho - http://leandrovieira.com
+ * @version 0.5
+ * @date April 11, 2008
+ * @category jQuery plugin
+ * @copyright (c) 2008 Leandro Vieira Pinho (leandrovieira.com)
+ * @license CCAttribution-ShareAlike 2.5 Brazil - http://creativecommons.org/licenses/by-sa/2.5/br/deed.en_US
+ * @example Visit http://leandrovieira.com/projects/jquery/lightbox/ for more informations about this jQuery plugin
+ */
+#jquery-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  width: 100%;
+  height: 500px;
+}
+#jquery-lightbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  text-align: center;
+  line-height: 0;
+}
+#jquery-lightbox a img {
+  border: none;
+}
+#lightbox-container-image-box {
+  position: relative;
+  background-color: #dcdcdc;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+#lightbox-container-image {
+  padding: 10px;
+}
+#lightbox-loading {
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+}
+#lightbox-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+#lightbox-container-image-box > #lightbox-nav {
+  left: 0;
+}
+#lightbox-nav a {
+  outline: none;
+}
+#lightbox-nav-btnPrev,
+#lightbox-nav-btnNext {
+  width: 49%;
+  height: 100%;
+  zoom: 1;
+  display: block;
+}
+#lightbox-nav-btnPrev {
+  left: 0;
+  float: left;
+}
+#lightbox-nav-btnNext {
+  right: 0;
+  float: right;
+}
+#lightbox-container-image-data-box {
+  font: 10px Verdana, Helvetica, sans-serif;
+  background-color: #000;
+  margin: 0 auto;
+  line-height: 1.4em;
+  overflow: auto;
+  width: 100%;
+  padding: 0 10px 0;
+}
+#lightbox-container-image-data {
+  padding: 0 10px;
+  color: #666;
+  display: none;
+}
+#lightbox-container-image-data #lightbox-image-details {
+  width: 70%;
+  float: left;
+  text-align: left;
+}
+#lightbox-image-details-caption {
+  font-weight: bold;
+}
+#lightbox-image-details-currentNumber {
+  display: block;
+  clear: left;
+  padding-bottom: 1.0em;
+}
+#lightbox-secNav-btnClose {
+  width: 66px;
+  float: right;
+  padding-bottom: 0.7em;
+}
